@@ -45,9 +45,9 @@ public class Main {
         System.out.println();
 
         if (sortKind == 0) {
-            Sort.sortCircumference(figures);
+            figures = Sort.sortCircumference(figures);
         } else if (sortKind == 1) {
-            Sort.sortSize(figures);
+            figures = Sort.sortSize(figures);
         }
     }
 
